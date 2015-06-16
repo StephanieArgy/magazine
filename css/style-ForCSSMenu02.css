@@ -1,5 +1,5 @@
 body {
-  background: MintCream;
+  background: #F5FFFA;
   margin: 0;
 }
 
@@ -22,7 +22,7 @@ header {
   padding-left: 8px;
   padding-right: 8px;
   padding-top: 100px;
-    background: MintCream;
+    background: #F5FFFA;
   position: relative;
   top: 0;
   bottom: 100%;
@@ -54,6 +54,7 @@ header {
 
 .css-slideout-menu-toggle {
   width: 3rem;
+  visibility: hidden;
 }
 
 .slideout-menu {
@@ -136,8 +137,8 @@ header {
 
 label[for="nav-trigger"] {
     position: fixed;
-    top: 15px;
-    left: 15px;
+    bottom: 18px;
+    left: 18px;
     z-index: 2;
 }
 
@@ -150,9 +151,7 @@ label[for="nav-trigger"] {
     background-size: contain;
 }
 
-.nav-trigger:checked + label {
-    left: 215px;
-}
+
 
 .nav-trigger:checked ~ #mainContent {
     left: 200px;
@@ -198,7 +197,7 @@ footer {
 
 h1 {
   position: absolute;
-    top: -50px;
+    top: -40px;
     left: 150px;
 }
 
@@ -207,6 +206,7 @@ h1 {
       background-image: url("http://placehold.it/200x200");
       background-repeat: no-repeat;
       background-position: left;
+      padding-top: 20px;
     }
 
 
