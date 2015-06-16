@@ -4,34 +4,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Magazine Template</title>
-    <link href='css/style.css' rel='stylesheet'>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/themes/smoothness/jquery-ui.css" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
-    <script src="js/scripts01.js"></script>
+    <link href='css/style-ForCSSMenu01.css' rel='stylesheet'>
 
   </head>
 
   <body>
 
+    <nav class="slideout-menu">
+      <h3>Article Links<a href="#" class="slideout-menu-toggle">×</a></h3>
+      <ul>
+          <li><a href="#articleOne">Article One</a></li>
+          <li><a href="#articleTwo">Article Two</a></li>
+          <li><a href="#articleThree">Article Three</a></li>
+        </ul>
+    </nav>
+
+    <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+<label for="nav-trigger"></label>
+
+<div id="mainContent">
+
     <header id="mainTitle">
       <h1>Main Title</h1>
     </header>
 
-    <div id="mainContent">
-
       <div  id="logo">
       </div>
-
-      <nav class="slideout-menu">
-      	<h3>Article Links<a href="#" class="slideout-menu-toggle">×</a></h3>
-      	<ul>
-            <li><a href="#articleOne">Article One</a></li>
-            <li><a href="#articleTwo">Article Two</a></li>
-            <li><a href="#articleThree">Article Three</a></li>
-          </ul>
-      </nav>
 
       <div class="contentsPanel">
         <article class="article" id="articleOne">
